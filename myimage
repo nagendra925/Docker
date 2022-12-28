@@ -3,6 +3,6 @@ FROM ubuntu
 
 MAINTAINER  NAGENDRA
 
-RUN  yum install update
+RUN  yum -y install update
 
 CMD ["echo", "Hello World..! from my first docker image"]
